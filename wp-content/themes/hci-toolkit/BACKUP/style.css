@@ -1,0 +1,408 @@
+/*&nbsp;&nbsp;&nbsp;html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)&nbsp;&nbsp;v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark&nbsp;&nbsp;html5doctor.com/html-5-reset-stylesheet/*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header,&nbsp;hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+article, aside, figure, footer, header,
+hgroup, nav, section { display:block; }
+
+nav ul { list-style:none; }
+
+blockquote, q { quotes:none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }
+
+a { margin:0; padding:0; font-size:.9em; vertical-align:baseline; background:transparent; }
+
+ins { background-color:#ff9; color:#000; text-decoration:none; }
+
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom:1px dotted #000; cursor:help; }
+
+/* tables still need cellspacing="0" in the markup */
+table { border-collapse:collapse; border-spacing:0; }
+
+hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+
+input, select { vertical-align:middle; }
+/* END RESET CSS */
+
+.no-left{
+	margin-left: 0px;
+}
+
+/* Layout
+-------------------------------------------------------------- */	
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #000;
+	background: #fff url('images/bg.gif') no-repeat;
+}
+#container {
+	margin: 0px auto;
+	width: 960px;
+}
+header {
+	display: block;
+}
+p {
+	line-height: 1.5em; /* 24px % 16px */
+	background-color: #fff;
+	font-size: .9em; /* 15px % 16px */
+}
+h1, h2, h3, h4{
+	display: inline;
+	font-weight: bold;
+	margin-bottom: 10px;	
+	background-color: #fff;
+}
+h2.title{
+	font-size: 1.5em; /* 24px % 16px */
+	margin-bottom: 20px;
+}
+h3{
+	font-size: 1em; /* 16px % 16px */
+}
+h4{
+	font-size: .81em; /* 13px % 16px */
+}
+#branding{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+header img{
+	float: left;
+	margin-right: 20px;
+}
+#searchform{
+	display: inline;
+	margin-top: 30px;
+	float: right;
+}
+.searchsubmit-container{
+	display: inline-block;
+	width: 65px;
+}
+nav {
+	display: block;
+	float: left;
+}
+nav li{
+	display: inline;
+}
+nav li a{
+	font-size: .75em; /* 12px % 16px */
+	margin: 0px 10px;
+	color: #EC008C;
+	text-decoration: none;
+}
+a:hover{
+	border-bottom: 1px solid #EC008C;
+}
+.current_page_item{
+	border-bottom: 1px solid #EC008C;
+}
+#phases{
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+}
+.phases-small {
+	margin-top: 10px;
+}
+.phases-small img{
+	margin-right: 3px;
+}
+.phase-header img{
+	display: inline;
+	width: 116px;
+	margin-right: 20px;
+}
+.phase-header img.arrow {
+	max-width: 28px;
+	padding-bottom: 40px;
+	cursor: default;
+}
+.arrow-small {
+	max-width: 13px;
+	padding-bottom: 23px;
+}
+.phase-header a {
+	margin-right: 10px;
+}
+.column{
+	display: block;
+	float: left;
+	width: 190px;
+}
+.method-list {
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 0px;
+}
+.method-list li {
+	display: inline;
+}
+.method-list li a{
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1.8em; /* 28px % 16px */
+	color: #000;
+	border-bottom: 1px transparent solid;
+}
+.method-list li a:hover{
+	border-bottom: 1px solid #EC008C;	
+}
+#post, #page{
+	display: block;
+	clear: both;
+	float: left;
+}
+#post{
+	width: 410px;
+}
+#page{
+	width: 600px;
+}
+section{
+	margin-bottom: 20px;
+}
+p img {
+	display: block;
+	margin: 10px 0px;
+	max-width: 250px;
+}
+section a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px dashed #EC008C;
+}
+.content, .description{
+	clear: both;
+	font-size: .9em; /* 15px % 16px */
+}
+.description{
+	font-weight: bold;
+}
+ul.reference {
+	padding: 0px;
+}
+ul.reference li{
+	list-style-image: url('images/dot.png');
+	background-color: white;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	line-height: 17px;
+	font-size: .81em; /* 13px % 16px */
+}
+ul.like-this li{
+	list-style-image: url('images/arrow.png');
+	margin-bottom: 10px;
+	margin-left: -20px;
+	line-height: 1.2em; /* 19px % 16px */
+}
+ul.like-this li a{
+	margin-left: 5px;
+}
+aside{
+	display: block;
+	float: left;
+	width: 250px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+label {
+	display: block;
+	font-weight: bold;
+	margin: 20px 0px 10px;
+}
+#update-comments{
+	margin-top: 20px;
+}
+.comment-meta{
+	font-size: .9em
+}
+.comment-name{
+	text-transform: capitalize;
+	font-weight: bold;
+}
+/* Form styling
+-------------------------------------------------------------- */
+.form-container{
+	display: block;
+	float: left;
+	clear: both;
+}
+.icon{
+	display: block;
+	float: left;
+	margin: 10px 5px 0px;
+	cursor: pointer;
+}
+.feedback-small, .feedback{
+	display: block;
+	float: left;
+	font-size: .75em; /* 12px % 16px */
+	background-color: #f9edbd;
+	border: 1px solid #dbc69b;
+	padding: 5px;
+}
+.feedback {
+	width: 400px;
+}
+.feedback-small{
+	width: 600px;
+}
+.info, .info-content, .block-info, .block-info-content{
+	display: block;
+	float: left;
+	background-color: #EC008C;
+	margin-left: -10px;
+	color: white;
+	padding: 10px;
+}
+.block-info, .block-info-content {
+	margin-left: 2px;
+}
+.info {
+	font-weight: bold;
+	cursor: pointer;
+}
+.info-content{
+	position: relative;
+	z-index: -1;
+	width: 350px;
+	left: -420px;
+	margin-top: 26px;
+}
+.block-info-content {
+	clear: both;
+	width: 600px;
+	line-height: 1.2em;
+}
+.input-example {
+	font-style: italic;
+	color: #777;
+}
+.input input[type="text"]{
+	display: block;
+	float: left;
+	height: 20px;
+	width: 200px;
+	border: 2px #000 solid;
+	padding-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	outline: 0px;
+}
+.input textarea{
+	display: block;
+	float: left;
+	border: 2px #000 solid;
+	width: 400px;
+	height: 200px;
+	padding-left: 5px;
+	margin-right: 10px;
+	outline: 0px;
+}
+input[type="submit"]{
+	display: block;
+	padding: 6px 10px;
+	background-color: #222;
+	color: #fff;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	font-weight: bold;
+	cursor: pointer;
+	clear: both;
+}
+input[type="submit"]:hover{
+	background-color: #666;
+	-webkit-transition: background 300ms linear;
+	-moz-transition: background 300ms linear;
+	-o-transition: background 300ms linear;
+	transition: background 300ms linear;
+}
+.form-submit{
+	margin: 20px 0px;
+}
+.float-left{
+	float: left;
+}
+.input input[type="text"].form-reference, .input input[type="text"].form-media {
+	width: 400px;
+	margin-top: 10px;
+	clear: both;
+}
+
+footer{
+	display: block;
+	clear: left;
+	margin-top: 40px;
+}
+
+/* Plugins en social media
+-------------------------------------------------------------- */	
+ul.twitter {
+	padding-bottom: 10px;
+}
+li.twitter-item {
+	margin-top: 10px;
+}
+li.twitter-item a {
+	color: #f96b07;
+}
+li.twitter-item a:visited {
+	color: #461500;
+}
+
+/* html5 and other specials
+-------------------------------------------------------------- */	
+.ie7 img { -ms-interpolation-mode: bicubic; }
+/*
+* print styles
+* inlined to avoid required HTTP connection www.phpied.com/delay-loading-your-print-css/
+*/
+@media print {
+* { background: transparent !important; color: #444 !important; text-shadow: none; }
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a:after { content: " (" attr(href) ")"; }
+  abbr:after { content: " (" attr(title) ")"; }&nbsp;&nbsp;&nbsp;&nbsp;.ir a:after { content: ""; } &nbsp;/* Don't show links for images */&nbsp;&nbsp;&nbsp;&nbsp;pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }&nbsp;&nbsp;&nbsp;&nbsp;img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+@media all and (orientation:portrait) {
+/* Style adjustments for portrait mode goes here */
+}
+
+@media all and (orientation:landscape) {
+/* Style adjustments for landscape mode goes here */
+}

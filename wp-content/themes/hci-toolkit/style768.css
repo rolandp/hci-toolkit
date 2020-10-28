@@ -1,0 +1,22 @@
+#header {
+	text-align: right;
+}
+#header img{
+	clear: both;
+	float: none;
+}
+.column{
+	min-width: 250px;
+	margin-right: 10%;
+}
+.column img{
+	display: inline;
+	width: 60%; /* 116px % 192px */
+	margin-right: 10%; /* 20px % 192px */
+}
+.newrow {
+	clear: left;
+}
+aside{
+	clear: both;
+}

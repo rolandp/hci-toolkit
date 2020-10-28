@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	padding: 0px;
+}
+.reference-info{
+	background-color: #fffedf;
+	display: block;
+	border: 1px solid #d9d49a;
+	padding: 5px;
+	line-height: 18px;
+	margin-bottom: 10px;
+	margin-top: -5px;
+}
+h4{
+	font-size: 12px;
+	font-weight: bold;
+}
+.margin-top{
+	margin-top: 10px;
+}
+.close-info, .show-info{
+	display: block;
+	width: 100%;
+	text-align: right;
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
+}
+.close-info {
+	visibility: hidden;
+}
+.show-info{
+	color: blue;
+	visibility: hidden;
+	margin-left: -10px;
+}
+.input-container{
+	width: 100%;
+}
+textarea.reference{
+	width: 470px;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+.icon{
+	display: block;
+	float: right;
+	margin: 0px 5px;
+	cursor: pointer;
+}
+.add-more{
+	padding-bottom: 4px;
+	margin-top: 10px;
+	visibility: hidden;
+}
+.add-example{
+	vertical-align: bottom;
+	visibility: hidden;
+}
+.field-counter{
+	visibility: hidden;
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.uploaded-image{
+	display: inline;
+	max-width: 150px;
+	margin-bottom: 10px;
+}
+.upload-image{
+	width: 300px;
+}
